@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Connection"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Connection" />
+
+    <item
+        android:id="@+id/navigation_gas"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Gas Sensors" />
+
+    <item
+        android:id="@+id/navigation_Infos"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Infos" />
+
+</menu>

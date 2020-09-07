@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:background="@color/colorWHITE">
+
+
+    <TextView
+        android:id="@+id/edit_porteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The wearer of the jacket has not moved for too long."
+        android:textAlignment="center"
+        android:textColor="@color/colorBLACK"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/alerteicon"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/edit_porteur"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorWHITE"
+        android:elevation="2dp"
+        android:src="@drawable/ic_warning_red_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alerteicon"
+        android:layout_marginTop="5dp"
+        android:text="An alarm started in order to wake up the person."
+        android:textAlignment="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JACKET</string>
+    
+    <string-array name="JacketList">
+        <item>Select a jacket...</item>
+        <item>Jacket n°1</item>
+        <item>Jacket n°2</item>
+    </string-array>
+</resources>
