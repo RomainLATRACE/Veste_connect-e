@@ -11,3 +11,8 @@ et envoyé à la raspberry qui elle même redirigera ces infos sur un serveur di
 Ensuite, ces données sont rendues visible via un smatphone qui écoute les données recu sur le serveur. 
 Depuis l'application mobile, il est possible d'interagir avec la veste.  Pour la communication rasp-to-server 
 et server-to-samrtphone, le protocole MQTT a été utilisé.
+
+
+
+
+Path pour les sources de l'application androïd: PrincipalApp_phone/app/src/main/java/com/example/principalapp/
